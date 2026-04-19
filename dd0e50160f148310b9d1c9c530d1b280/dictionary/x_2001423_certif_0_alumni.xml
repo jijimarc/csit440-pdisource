@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="5d89649e0f548310b9d1c9c530d1b26c" extends="x_2001423_certif_0_customer" label="Alumni" max_length="40" name="x_2001423_certif_0_alumni" type="collection">
+        <element label="year_of_graduation" max_length="40" name="year_of_graduation" type="string"/>
+    </element>
+</database>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="contact_number" label="contact_number" language="en" table="x_2001423_certif_0_user">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>contact_number</element>
+            <help/>
+            <hint/>
+            <label>contact_number</label>
+            <language>en</language>
+            <name>x_2001423_certif_0_user</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-04-19 02:31:15</sys_created_on>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_name>contact_number</sys_name>
+            <sys_package display_value="Certificates-App" source="x_2001423_certif_0">dd0e50160f148310b9d1c9c530d1b280</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Certificates-App">dd0e50160f148310b9d1c9c530d1b280</sys_scope>
+            <sys_update_name>sys_documentation_x_2001423_certif_0_user_contact_number_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-04-19 02:31:20</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

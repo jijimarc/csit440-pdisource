@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="ddebe0d20f948310b9d1c9c530d1b25e" label="Request" max_length="40" name="x_2001423_certif_0_request" type="collection">
+        <element label="docs_id" max_length="32" name="docs_id" reference="x_2001423_certif_0_document" type="reference"/>
+        <element choice="3" default="regular" label="urgency_level" max_length="40" name="urgency_level" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Regular" sequence="0" value="regular"/>
+                <element inactive_on_update="false" label="Rush" sequence="1" value="rush"/>
+            </choice>
+        </element>
+        <element label="user_id" max_length="32" name="user_id" reference="x_2001423_certif_0_user" type="reference"/>
+        <element label="purpose" max_length="200" name="purpose" type="string"/>
+        <element label="processed_by" max_length="32" name="processed_by" reference="x_2001423_certif_0_staff" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="date_requested" max_length="40" name="date_requested" type="glide_date"/>
+        <element choice="3" default="pending" label="status" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Denied" sequence="2" value="denied"/>
+                <element inactive_on_update="false" label="Pending" sequence="0" value="pending"/>
+                <element inactive_on_update="false" label="Approved" sequence="1" value="approved"/>
+                <element inactive_on_update="false" label="Paid" sequence="3" value="paid"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="docs_id"/>
+        </index>
+        <index name="index2">
+            <element name="processed_by"/>
+        </index>
+        <index name="index3">
+            <element name="user_id"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="49a9e89e0f548310b9d1c9c530d1b214" extends="x_2001423_certif_0_customer" label="Student" max_length="40" name="x_2001423_certif_0_student" type="collection">
+        <element label="year_level" max_length="40" name="year_level" type="string"/>
+        <element label="program" max_length="40" name="program" type="string"/>
+    </element>
+</database>

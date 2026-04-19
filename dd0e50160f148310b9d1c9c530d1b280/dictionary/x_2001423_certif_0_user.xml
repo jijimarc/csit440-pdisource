@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="34b420160f548310b9d1c9c530d1b229" label="User" max_length="40" name="x_2001423_certif_0_user" type="collection">
+        <element choice="3" label="user_type" max_length="40" name="user_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Alumni" sequence="0" value="alumni"/>
+                <element inactive_on_update="false" label="Student" sequence="1" value="student"/>
+            </choice>
+        </element>
+        <element label="contact_number" max_length="40" name="contact_number" type="string"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element label="email" max_length="40" name="email" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="fullname" max_length="40" name="fullname" type="string"/>
+        <index name="index">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

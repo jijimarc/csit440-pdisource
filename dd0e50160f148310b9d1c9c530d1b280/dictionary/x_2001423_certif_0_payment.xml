@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="9a5c64160f948310b9d1c9c530d1b20e" label="Payment" max_length="40" name="x_2001423_certif_0_payment" type="collection">
+        <element label="request_id" max_length="32" name="request_id" reference="x_2001423_certif_0_request" type="reference"/>
+        <element label="verified_by" max_length="32" name="verified_by" reference="x_2001423_certif_0_staff" type="reference"/>
+        <element label="proof_of_payment" max_length="40" name="proof_of_payment" type="user_image"/>
+        <element label="reference_number" max_length="40" name="reference_number" type="string"/>
+        <element label="verification_date" max_length="40" name="verification_date" type="glide_date"/>
+        <element label="user_id" max_length="32" name="user_id" reference="x_2001423_certif_0_user" type="reference"/>
+        <index name="index">
+            <element name="request_id"/>
+        </index>
+        <index name="index2">
+            <element name="user_id"/>
+        </index>
+        <index name="index3">
+            <element name="verified_by"/>
+        </index>
+    </element>
+</database>

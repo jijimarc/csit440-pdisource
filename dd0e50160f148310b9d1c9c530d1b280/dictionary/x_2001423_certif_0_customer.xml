@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="7429645e0f548310b9d1c9c530d1b2b7" extends="x_2001423_certif_0_user" label="Customer" max_length="40" name="x_2001423_certif_0_customer" type="collection">
+        <element label="student_id_number" max_length="40" name="student_id_number" type="longint"/>
+        <element label="customer_status" max_length="40" name="customer_status" type="string"/>
+        <element label="department" max_length="40" name="department" type="string"/>
+    </element>
+</database>

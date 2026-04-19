@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="8a69b4120f188310b9d1c9c530d1b23b" label="Completion" max_length="40" name="x_2001423_certif_0_completion" type="collection">
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="request_id" max_length="32" name="request_id" reference="x_2001423_certif_0_request" type="reference"/>
+        <element choice="3" label="delivery_mode" max_length="40" name="delivery_mode" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Online" sequence="0" value="online"/>
+                <element inactive_on_update="false" label="Pickup" sequence="1" value="pickup"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="request_id"/>
+        </index>
+    </element>
+</database>

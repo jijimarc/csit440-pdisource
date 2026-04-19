@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="7faba8920f948310b9d1c9c530d1b2c4" label="Document" max_length="40" name="x_2001423_certif_0_document" type="collection">
+        <element default="200.00" label="rush_fee" max_length="20" name="rush_fee" type="currency"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="availability" max_length="40" name="availability" type="string"/>
+        <element label="doc_name" max_length="40" name="doc_name" type="string"/>
+        <element default="150.00" label="standard_fee" max_length="20" name="standard_fee" type="currency"/>
+        <element label="description" max_length="150" name="description" type="string"/>
+    </element>
+</database>

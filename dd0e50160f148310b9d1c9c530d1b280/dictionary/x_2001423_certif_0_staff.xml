@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="5e076c1a0f548310b9d1c9c530d1b2a2" extends="x_2001423_certif_0_user" label="Staff" max_length="40" name="x_2001423_certif_0_staff" type="collection">
+        <element label="role" max_length="40" name="role" type="string"/>
+        <element label="employee_id_number" max_length="40" name="employee_id_number" type="longint"/>
+        <element label="digital_signature" max_length="40" name="digital_signature" type="user_image"/>
+    </element>
+</database>
